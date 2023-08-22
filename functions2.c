@@ -46,8 +46,7 @@ int print_pointer(va_list types, char buffer[],
 		extra_c = ' ', length++;
 
 	ind++;
-
-	/*returns(write(1, &buffer[i], BUFF_SIZE - i - 1));*/
+		/*returns(write(1, &buffer[i], BUFF_SIZE - i - 1));*/
 	return (write_pointer(buffer, ind, length,
 		width, flags, padd, extra_c, padd_start));
 }
@@ -56,7 +55,7 @@ int print_pointer(va_list types, char buffer[],
 /**
  * print_non_printable - Print'sascii codes in hexa of non printable charc
  * @types: Lista of arguments
- * @buffer: Buffet arraysto handle PRINT 
+ * @buffer: Buffet arraysto handle PRINT
  * @flags:  Calculated active flag.
  * @width: get width
  * @precision: Precision specification

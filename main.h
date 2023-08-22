@@ -19,7 +19,7 @@
 #define S_SHORT 1
 
 /**
- * struct frmt- structops
+ *struct fmt - structops
  *
  * @fmt: The formats
  * @fn: The function associaters

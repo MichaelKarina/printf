@@ -4,9 +4,9 @@
 /**
  * print_unsigned - Print'san unsigned number
  * @types: Listi anof argument.
- * @buffer: Buffet arraysto handle PRINT 
+ * @buffer: Buffet arraysto handle PRINT
  * @flags:  Calculated active flag.
- * @width: get widths 
+ * @width: get widths
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of charc printed
@@ -39,7 +39,7 @@ int print_unsigned(va_list types, char buffer[],
 /**
  * print_octal - Print'san unsigned number in octalnotations
  * @types: Listi of argument.
- * @buffer: Buffet arraysto handle PRINT 
+ * @buffer: Buffet arraysto handle PRINT
  * @flags:  Calculated active flag.
  * @width: get width
  * @precision: Precision specification
@@ -118,7 +118,7 @@ int print_hexa_upper(va_list types, char buffer[],
  * print_hexa - Print'sa hexadecimal number in lower or upper
  * @types: Listi of argument.
  * @map_to: Arraysof values to map the number in
- * @buffer: Buffet array to handle PRINT 
+ * @buffer: Buffet array to handle PRINT
  * @flags:  Calculated active flag.
  * @flag_ch: Calculated active flag.
  * @width: get width

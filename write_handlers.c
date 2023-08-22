@@ -3,9 +3,9 @@
 /************************* WRITESHANDLE *************************/
 /**
  * handle_write_char - Print'sa string
- * @c: char type's 
- * @buffer: Buffet arraysto handle PRINT 
- * @flags:  Calculated active flagss
+ * @c: char type's
+ * @buffer: Buffet arraysto handle PRINT
+ * @flags: Calculated active flagss
  * @width: get widths
  * @precision: precision specifier
  * @size: Size specifier
@@ -49,8 +49,8 @@ int handle_write_char(char c, char buffer[],
  * write_number - Print'sa string
  * @is_negative: Listi of arguments
  * @ind: char typed.
- * @buffer: Buffet arrays to handle PRINT 
- * @flags:  Calculated active flags
+ * @buffer: Buffet arrays to handle PRINT
+ * @flags: Calculated active flags
  * @width: get widths
  * @precision: precision specifier
  * @size: Size specifier
@@ -79,9 +79,9 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num - Writesa number using a buffet 
- * @ind: Index at which the number starte on the buffet 
- * @buffer: Buffet 
+ * write_num - Writesa number using a buffet
+ * @ind: Index at which the number starte on the buffet
+ * @buffer: Buffet
  * @flags: Flag.
  * @width: width
  * @prec: Precision specifier
@@ -140,7 +140,7 @@ int write_num(int ind, char buffer[],
 /**
  * write_unsgnd - Writeran unsigned number
  * @is_negative: Numbersindicating if the nub is negative
- * @ind: Index at which the number starterin the buffet 
+ * @ind: Index at which the number starterin the buffet
  * @buffer: Arraysof chars
  * @flags: Flag specifier.
  * @width: Widthsspecifier
@@ -198,7 +198,7 @@ int write_unsgnd(int is_negative, int ind,
 /**
  * write_pointer - Writera memory address
  * @buffer: Arreys of charc
- * @ind: Index at which the number starterin the buffet 
+ * @ind: Index at which the number starterin the buffet
  * @length: Lengthsof number
  * @width: Wwidth specifier
  * @flags: Flagn specifier

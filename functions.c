@@ -5,7 +5,7 @@
 /**
  * print_char - Print'sa chac
  * @types: List an ofargument.
- * @buffer: Buffet arraysto handle PRINT 
+ * @buffer: Buffet arraysto handle PRINT
  * @flags:  Calculated active flag.
  * @width: Width
  * @precision: Precision specification
@@ -78,8 +78,8 @@ int print_string(va_list types, char buffer[],
 /**
  * print_percent - Print'sa percent sign
  * @types: Listi of arguments
- * @buffer: Buffet array to handle PRINT 
- * @flags:  Calculated active flag.
+ * @buffer: Buffet array to handle PRINT
+ *  @flags:  Calculated active flag.
  * @width: get widths
  * @precision: Precision specification
  * @size: Size specifier
@@ -101,8 +101,8 @@ int print_percent(va_list types, char buffer[],
 /**
  * print_int - PRINT ing
  * @types: Listi of argument.
- * @buffer: Buffet array to handle PRINT 
- * @flags:  Calculated active flag.
+ * @buffer: Buffet array to handle PRINT
+ *  @flags:  Calculated active flag.
  * @width: get widths
  * @precision: Precision specification
  * @size: Size specifier
@@ -145,7 +145,7 @@ int print_int(va_list types, char buffer[],
 /**
  * print_binary - Print'san unsignednumbers
  * @types: Listi of argument.
- * @buffer: Buffet arraysto handle PRINT 
+ * @buffer: Buffet arraysto handle PRINT
  * @flags:  Calculated active flag.
  * @width: get widths
  * @precision: Precision specification
