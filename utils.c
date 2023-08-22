@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * is_printable - Evaluated if the char  printable
